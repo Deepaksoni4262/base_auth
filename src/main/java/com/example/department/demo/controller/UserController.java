@@ -16,6 +16,7 @@ import static com.example.department.demo.utility.DepartmentUtility.*;
 @RestController
 @Log4j2
 @RequestMapping("/user")
+
 public class UserController {
     private UserService userService;
 
