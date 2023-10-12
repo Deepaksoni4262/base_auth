@@ -37,8 +37,15 @@ public class departmentController {
 
     @GetMapping("/get-all-department")
     public ResponseJsonHandler getAllDepartment() {
-        log.info("executing login() Method ");
+        log.info("executing getAllDepartment() Method ");
         return departmentService.getAllDepartment();
+    }
+
+
+    @GetMapping("/get-token")
+    public ResponseJsonHandler getToken() {
+        log.info("executing getToken() Method ");
+        return departmentService.getToken();
     }
 
 
